@@ -1,0 +1,11 @@
+.dashboard-container{
+    margin-left: 100px;
+}
+.greet{
+    font-size: 50px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
