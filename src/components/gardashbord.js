@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-
+import './gardashbord.css'
 const Dashboard = () => {
   const [user, setUser] = useState(null);
   const [message, setMessage] = useState('');

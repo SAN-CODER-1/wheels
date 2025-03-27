@@ -1,0 +1,60 @@
+
+  
+  /* Dashboard Container */
+  .dashboard-container {
+    width: 90%;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffcc70;
+  }
+  
+  /* User Info */
+  .user-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+  
+  .user-info p {
+    margin: 8px 0;
+  }
+  
+  /* Error Message */
+  .error-message {
+    font-size: 14px;
+    color: #ff5757;
+    margin-bottom: 10px;
+  }
+  
+  /* Logout Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background: #ff6f61;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: #ff4b47;
+  }
+  

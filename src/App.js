@@ -25,6 +25,9 @@ import Garages from "./components/garages";
 import Booking from "./components/bookservice";
 import GarageOwnerDashboard from "./components/dasgarage";
 import Garagelogin from "./components/garagelogin";
+import GarageServiceApp from "./demo/garbook";
+import Payment from "./demo/payment";
+import OnTheWay from "./demo/track";
 
 function App() {
 
@@ -44,6 +47,10 @@ function App() {
         <Route path="/register"  element={  <Register/>} />
         <Route path="/dashboard"  element={ <><Dashboard/><UpdateLocation/></>} />
         <Route path="/garagedashboard"  element={ <GarageOwnerDashboard/>} />
+
+        <Route path="/afterbook"  element={<>  <GarageServiceApp/> <Payment/></>} />
+        <Route path="/payment"  element={ <Payment/>} />
+        <Route path="/ontheway"  element={ <OnTheWay/>} />
       </Routes>
     </Router>
   );

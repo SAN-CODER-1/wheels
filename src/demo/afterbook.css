@@ -1,0 +1,260 @@
+/* Main App Container */
+*{
+    background-color: #f9f9f9;
+}
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    color: #333333;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header p {
+    color: #666666;
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+  
+  /* Filter Buttons */
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters button {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #555;
+    transition: all 0.3s;
+  }
+  
+  .filters button:hover {
+    background-color: #eeeeee;
+  }
+  
+  .filters button.active {
+    background-color: #FFD700; /* Yellow */
+    color: #333;
+  }
+  
+  /* Garage Cards */
+  .garage-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .garage-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    transition: transform 0.2s;
+  }
+  
+  .garage-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .garage-card h3 {
+    color: #333;
+    margin: 0 0 5px;
+  }
+  
+  .garage-card p {
+    color: #666;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .rank-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #FFD700; /* Yellow */
+    color: #333;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .best-choice-badge {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background-color: #FFD700; /* Yellow */
+    color: #333;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Service Details View */
+  .service-details {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .service-option {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .service-option h4 {
+    color: #333;
+    margin: 0 0 5px;
+    text-transform: capitalize;
+  }
+  
+  .service-option p {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Payment View */
+  .payment-view {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .payment-view input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .payment-view button {
+    background-color: #FFD700; /* Yellow */
+    color: #333;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  /* Tracking View */
+  .tracking-view {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    height: 10px;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+  
+  .progress-bar div {
+    background-color: #FFD700; /* Yellow */
+    height: 100%;
+    transition: width 0.5s;
+  }
+  
+  /* QR Code Container */
+  .qrcode-container {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #FFD700; /* Yellow */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e6c200;
+  }
+  
+  .back-button {
+    background-color: #f0f0f0;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Service View */
+  .service-view {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .app-container {
+      padding: 10px;
+    }
+    
+    .header {
+      padding: 15px;
+    }
+    
+    .filters {
+      flex-wrap: wrap;
+    }
+  }
