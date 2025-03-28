@@ -28,6 +28,8 @@ import Garagelogin from "./components/garagelogin";
 import GarageServiceApp from "./demo/garbook";
 import Payment from "./demo/payment";
 import OnTheWay from "./demo/track";
+import FirstAidBot from "./demo/chatbot";
+import VehicleFirstAidChatbot from "./demo/chatbot";
 
 function App() {
 
@@ -51,6 +53,7 @@ function App() {
         <Route path="/afterbook"  element={<>  <GarageServiceApp/> <Payment/></>} />
         <Route path="/payment"  element={ <Payment/>} />
         <Route path="/ontheway"  element={ <OnTheWay/>} />
+        <Route path="/chatbot"  element={ <FirstAidBot/>} />
       </Routes>
     </Router>
   );
